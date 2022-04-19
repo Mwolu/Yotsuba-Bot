@@ -45,10 +45,10 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─「(づ￣ 3￣)づ」
 │⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: Yᴏᴛsᴜʙᴀ
+│⋊ ℕ𝕒𝕞𝕖: 𝔾𝕠𝕛𝕠 𝕊𝕒𝕥𝕠𝕣𝕦
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod*
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/Piku-and-yotsuba-support
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔸𝕟𝕚𝕞𝕖 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/Ft3zNPd6TvY5YRDpOUYE6n
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -60,10 +60,10 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ 𝒀𝒐𝒕𝒔𝒖𝒃𝒂 𝑩𝒐𝒕 ]┈❅───
+ ──❅┈[ 𝙂𝙤𝙟𝙤 𝘽𝙤𝙩 ]┈❅───
 ┌────────────┈❅
-│   🧨 YᴏᴛsUʙᴀ
-│   ©️ ՏYᑎTᕼᗴՏIᘔᗴᗪ IᑎᖴIᑎITY
+│   🧨 𝘎𝘰𝘫𝘰 𝘚𝘢𝘵𝘰𝘳𝘶
+│   ©️ Ｎ Ａ Ｒ Ｕ Ｔ Ｏ<３
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
 🎗 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
