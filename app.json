@@ -1,6 +1,6 @@
 {
     
-  "name": "Yotsuba",
+  "name": "Gojo Satoru",
   "description": "A WhatsApp Bot With Rich NSFW Features based on chitoge.",
   "keywords": [
       "bot",
@@ -13,7 +13,7 @@
       "whatsapp-botto"
   ],
   "website": "https://github.com/ShinNouzen/Chitoge#readme",
-  "repository": "https://github.com//Whatup364/Chitoge.git",
+  "repository": "https://github.com/Mwolu/Yotsuba-Bot.git",
   "logo": "https://i.pinimg.com/736x/71/c2/8e/71c28e4ffd58c60aceacffab60db14cc.jpg",
   "success_url": "/",
   "env": {
